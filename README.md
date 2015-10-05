@@ -1,3 +1,6 @@
-# My Awesome Book
+# MCS SDK Android Tutorial Document
 
-This file serves as your book's preface, a great place to describe your book's content and ideas.
+This is a detailed tutorial for [MCS SDK for Android with Tutorial][sdk-github].
+
+
+[sdk-github]: https://github.com/Mediatek-Cloud/mcs-sdk-android
