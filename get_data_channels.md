@@ -5,7 +5,7 @@ Upon the previous section, we get a list of device. But, the response is `Device
 
 ## Get Device Info
 
-Replace `{deviceId}` of `RequestApi.GET_DEVICE_BY_ID` with certain deviceId to get the device info.
+Replace `{deviceId}` of `RequestApi.DEVICE` with certain deviceId to get the device info.
 
 ```java
 /**
@@ -13,7 +13,7 @@ Replace `{deviceId}` of `RequestApi.GET_DEVICE_BY_ID` with certain deviceId to g
  */
 private void requestDeviceInfo(String deviceId) {
     McsJsonRequest request = new McsJsonRequest(
-        RequestApi.GET_DEVICE_BY_ID
+        RequestApi.DEVICE
             .replace("{deviceId}", deviceId),
         new McsResponse.SuccessListener<JSONObject>() {
             @Override public void onSuccess(JSONObject response) {
