@@ -31,7 +31,7 @@ McsPushInstallation.getInstance().registerInBackground(
 );
 ```
 
-Once you have used the SDK to sign in a mobile device, you can see it in the [User Profile page][mcs-profile].
+Or, you can see it in the [User Profile page][mcs-profile].
 
 Please refer to [MCS SDK Android Guide - Push Notifications][guide-notif] for detailed mechanism behind `McsPushInstallation.getInstance().registerInBackground()`.
 
