@@ -4,7 +4,7 @@ To get the list of your IoT devices stored in MCS, you will need to make a reque
 
 ## Send a Request
 
-If you are familiar with [Volley][volley], the open source network request library created by Google, hooray! It's almost the same to manipulate MCS SDK. 
+If you are familiar with [Volley][volley], the open source network request library created by Google, hooray! It's almost the same to use MCS SDK. 
 
 ```java
 // Default method is GET 
