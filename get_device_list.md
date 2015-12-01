@@ -9,7 +9,7 @@ If you are familiar with [Volley][volley], the open source network request libra
 ```java
 // Default method is GET 
 int method = McsJsonRequest.Method.GET;
-String url = RequestApi.GET_DEVICE_LIST;
+String url = RequestApi.DEVICES;
 McsResponse.SuccessListener<JSONObject> successListener =
     new McsResponse.SuccessListener<JSONObject>() {
       @Override public void onSuccess(JSONObject response) {
