@@ -1,13 +1,13 @@
 # Get Push Notification [Optional]
 
-MCS has [Trigger & Action][mcs-setup-notif] function. The user can set the trigger and action for a data channel when its value passes the limit of the defined range. The user will get email notification or the GCM notification based on the trigger and action setting. 
+MCS has [Trigger & Action][mcs-tutorial-notif] function. The user can set the trigger and action for a data channel when its value passes the limit of the defined range. The user will get email notification or the GCM notification based on the trigger and action setting. 
 
 ## Setup
 
 Please be sure you have 
 
 1. Create your own [Google Cloud Messaging][gcm] project to obtain **GCM_SENDER_ID** and **GCM_API_KEY**.
-2. Follow the step of [Setup with Push Installation | MCS Android Tutorial][sdk-github-push]
+2. Follow the step of [MCS Android Tutorial - Setup with Push Installation][sdk-github-push]
 
 ## Check it on MCS Website
 
@@ -27,7 +27,7 @@ McsSession.getInstance().requestSignIn(email, pwd,
 
 Once you have used the SDK to sign in a mobile device, you can see it in the [User Profile page][mcs-profile].
 
-
+Please refer to [MCS SDK Android Guide - Push Notifications][guide-notif] for detailed mechanism behind `McsPushInstallation.getInstance().registerInBackground()`.
 
 ## Trigger and Action
 
@@ -48,5 +48,6 @@ Also, only true devices could trigger actions. True devices make request with he
 [mcs-profile]: https://mcs.mediatek.com/v2console/console/profile
 
 [sdk-github-push]: https://github.com/Mediatek-Cloud/mcs-sdk-android#b-setup-with-push-installation
+[guide-notif]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/push_notifications.html
 
 [gcm]: https://developers.google.com/cloud-messaging/
