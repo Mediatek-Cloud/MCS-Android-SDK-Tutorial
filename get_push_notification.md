@@ -33,6 +33,8 @@ McsPushInstallation.getInstance().registerInBackground(
 
 Or, you can see it in the [User Profile page][mcs-profile].
 
+![img-mobiles][img-mobiles]
+
 Please refer to [MCS SDK Android Guide - Push Notifications][guide-notif] for detailed mechanism behind `McsPushInstallation.getInstance().registerInBackground()`.
 
 ## Trigger and Action
@@ -57,3 +59,5 @@ Also, only true devices could trigger actions. True devices make request with he
 [guide-notif]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/push_notifications.html
 
 [gcm]: https://developers.google.com/cloud-messaging/
+
+[img-mobiles]: https://img.mediatek.com/1500/mtk.linkit/mcs-resources/en/2.12.5/Trigger/img_trigger_06.png
