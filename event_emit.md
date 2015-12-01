@@ -45,5 +45,13 @@ public void setDataPointEntity(DataPointEntity dp) {
 ```
 
 
+## Proguard
+
+To keep Event Emit works well, add the following lines to your project’s `proguard.cfg` file:
+
+```
+-keepclassmembers class ** { public void onEvent*(**); }
+```
+
 
 [eventbus]: https://github.com/greenrobot/EventBus
