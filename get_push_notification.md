@@ -11,15 +11,21 @@ Please be sure you have
 
 ## Check it on MCS Website
 
-If the setup is correct, then the mobile device is registered to MCS Server when you get `OnSuccess()` response of `McsSession.signIn()`.
+If the setup is correct, then the mobile device is registered to MCS Server when you get `OnSuccess()` response of `McsPushInstallation.getInstance().registerInBackground()`.
 
 ```java
-McsSession.getInstance().requestSignIn(email, pwd, 
+McsPushInstallation.getInstance().registerInBackground(
+    "YOUR_GCM_SENDER_ID", "YOUR_GCM_API_KEY",
     new McsResponse.SuccessListener<JSONObject>() {
         @Override public void onSuccess(JSONObject response) {
             // If you correctly setup with push installation, 
             // the mobile device is registered to MCS Server at this point.
             McsLog.d("This mobile's id: " + McsMobile.getMobileId());
+        }
+    },
+    new McsResponse.ErrorListener<JSONObject>() {
+        @Override public void onError(Exception error) {
+            // something went wrong
         }
     }
 );
