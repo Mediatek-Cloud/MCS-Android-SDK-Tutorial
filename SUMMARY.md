@@ -10,5 +10,5 @@
 * [Get & Submit Data Points](get_and_submit_data_points.md)
 * [Get Push Notification](get_push_notification.md)
 * [Advanced Features](advanced_features.md)
-* Initialize
+* [Initialize](initialize.md)
 
