@@ -1,6 +1,6 @@
-# MCS SDK Android Tutorial Document
+# MCS Android SDK Tutorial
 
-This is a detailed tutorial for [MCS SDK for Android with Tutorial][sdk-github].
+This is a detailed tutorial for [MCS Android SDK][sdk-github].
 
 
-[sdk-github]: https://github.com/Mediatek-Cloud/mcs-sdk-android
+[sdk-github]: https://github.com/Mediatek-Cloud/mcs-android-sdk
