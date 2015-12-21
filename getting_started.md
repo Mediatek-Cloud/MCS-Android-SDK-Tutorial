@@ -1,6 +1,6 @@
 # Getting Started
 
-Please get the SDK installed provided at [Quickstart: MCS SDK for Android with Tutorial][sdk-github] and run it in Android Studio. Note that we support Android 4.0.3 and higher. You can also check out our [Android Guide][sdk-guide] for more detailed information about the SDK.
+Please get the SDK installed provided at [MCS Android SDK: Getting Started][sdk-github] and run it in Android Studio. Note that we support Android 4.0.3 and higher. You can also check out our [Android API Reference][sdk-api] for more detailed information about the SDK.
 
 ---
 
@@ -14,5 +14,5 @@ This tutorial will walk you through the following features
 6. [Get Push Notification](get_push_notification.md)
 
 
-[sdk-github]: https://github.com/Mediatek-Cloud/mcs-sdk-android
-[sdk-guide]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/
+[sdk-github]: https://github.com/Mediatek-Cloud/MCS-Android-SDK
+[sdk-api]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/
