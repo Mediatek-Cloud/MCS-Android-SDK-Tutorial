@@ -5,7 +5,7 @@ Let's assumed you have already followed [Quickstart: MCS SDK for Android with Tu
 If you are interested in more customization, please refer to [MCS SDK Android Guide - Initialize][guide-initialize] section for detailed explanation.    
 
 
-[sdk-github]: https://github.com/Mediatek-Cloud/mcs-sdk-android
+[sdk-github]: https://github.com/Mediatek-Cloud/MCS-Android-SDK
 [guide-initialize]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/initialize.html
 
  
