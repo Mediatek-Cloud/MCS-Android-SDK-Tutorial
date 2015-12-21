@@ -42,7 +42,7 @@ McsSession.getInstance().requestSignOut(
 );
 ```
 
-Check [Sessions - MCS SDK Android Guide][sdk-guide-sessions]) for detailed description like parameter requirements.
+Check [Sessions - MCS Android SDK API Reference][sdk-api-sessions] for detailed description like parameter requirements.
 
 
-[sdk-guide-sessions]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/sessions.html
+[sdk-api-sessions]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/sessions.html
