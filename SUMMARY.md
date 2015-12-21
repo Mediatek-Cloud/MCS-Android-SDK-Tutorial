@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [README](README.md)
 * [Initialize](initialize.md)
 * [Manage Users](manage_users.md)
 * [Get Device List](get_device_list.md)
