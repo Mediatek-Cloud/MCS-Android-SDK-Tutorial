@@ -49,12 +49,12 @@ DeviceSummaryEntity[] summary = new Gson().fromJson(
     response.toString(), DeviceSummaryEntity.class).getResults();
 ```
 
-Check [Entities - MCS SDK Android Guide][sdk-guide-entities] for detailed explaination.
+Check [Entities - MCS Android SDK API Reference][sdk-api-entities] for detailed explaination.
 
 
 
 [mcs-api]: https://mcs.mediatek.com/resources/latest/api_references/
-[sdk-guide-entities]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/entities.html
+[sdk-api-entities]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/entities.html
 
 [volley]: https://android.googlesource.com/platform/frameworks/volley/
 [gson]: https://github.com/google/gson
