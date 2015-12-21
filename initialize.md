@@ -6,6 +6,6 @@ If you are interested in more customization, please refer to [MCS SDK Android Gu
 
 
 [sdk-github]: https://github.com/Mediatek-Cloud/mcs-sdk-android
-[guide-initialize]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/initialize.html
+[guide-initialize]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/initialize.html
 
  
