@@ -64,7 +64,7 @@ DataChannelEntity channelEntity = deviceInfo.getDataChannels().get(0);
 mDataChannel = new McsDataChannel(mDeviceInfo, channelEntity, socketListener);
 ```
 
-Check [Data Channels - MCS SDK Android Guide][sdk-guide-data-channels] to know how to use `McsDataChannel`.
+Check [Data Channels - MCS Android SDK API Reference][sdk-api-data-channels] to know how to use `McsDataChannel`.
 
 Note that `McsDataChannel` contains `DataChannelEntity`. `DataChannelEntity` is only an entity / data model that describes the format of response. `McsDataChannel` is a wrapper of `DataChannelEntity` with extra funcitons: 
 
@@ -73,4 +73,4 @@ Note that `McsDataChannel` contains `DataChannelEntity`. `DataChannelEntity` is 
 
 
 
-[sdk-guide-data-channels]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/data_channels.html
+[sdk-api-data-channels]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/data_channels.html
