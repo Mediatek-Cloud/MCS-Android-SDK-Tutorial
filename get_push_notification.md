@@ -7,7 +7,7 @@ MCS has [Trigger & Action][mcs-tutorial-notif] function. The user can set the tr
 Please be sure you have 
 
 1. Create your own [Google Cloud Messaging][gcm] project to obtain **GCM_SENDER_ID** and **GCM_API_KEY**.
-2. Follow the step of [MCS Android Tutorial - Setup with Push Installation][sdk-github-push]
+2. Follow the step of [MCS Android SDK - Setup with Push Installation][sdk-github-push]
 
 ## Check it on MCS Website
 
@@ -35,7 +35,7 @@ Or, you can see it in the [User Profile page][mcs-profile].
 
 ![img-mobiles][img-mobiles]
 
-Please refer to [MCS SDK Android Guide - Push Notifications][guide-notif] for detailed mechanism behind `McsPushInstallation.getInstance().registerInBackground()`.
+Please refer to [Push Notifications- MCS Android SDK API Reference][sdk-api-notif] for detailed mechanism behind `McsPushInstallation.getInstance().registerInBackground()`.
 
 ## Trigger and Action
 
@@ -55,8 +55,8 @@ Also, only true devices could trigger actions. True devices make request with he
 [mcs-tutorial-notif]: https://mcs.mediatek.com/resources/latest/tutorial/setting_notification
 [mcs-profile]: https://mcs.mediatek.com/v2console/console/profile
 
-[sdk-github-push]: https://github.com/Mediatek-Cloud/mcs-sdk-android#b-setup-with-push-installation
-[guide-notif]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/push_notifications.html
+[sdk-github-push]: https://github.com/Mediatek-Cloud/MCS-Android-SDK#b-setup-with-push-installation
+[sdk-api-notif]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/push_notifications.html
 
 [gcm]: https://developers.google.com/cloud-messaging/
 
