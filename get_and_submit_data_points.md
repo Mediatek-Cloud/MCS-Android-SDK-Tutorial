@@ -28,9 +28,9 @@ Currently, there are 3 kinds of `Values`
 
 Every data channel has its own type of data point. It's necessary to put `Values` in the right format to submit data points successfully.
 
-Check [Data Points - MCS SDK Android Guide][sdk-guide-data-points] to know how to put correct `Values` into the data point.
+Check [Data Points - MCS Android SDK API Reference][sdk-api-data-points] to know how to put correct `Values` into the data point.
 
 
 
 [mcs-api]: https://mcs.mediatek.com/resources/latest/api_references/
-[sdk-guide-data-points]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-guide/content/data_points.html
+[sdk-api-data-points]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-api-reference/content/data_points.html
